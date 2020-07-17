@@ -1,0 +1,200 @@
+
+:root {
+    /* colors */
+    --nav-hero: hsl(217, 28%, 15%);
+    --main-bkg: hsl(218, 28%, 13%);
+    --testimonial: hsl(219, 30%, 18%);
+    --footer: hsl(216, 53%, 9%);
+    --cyan-cta: hsl(176, 68%, 64%);
+    --blue-cta: hsl(198, 60%, 50%);
+    --nuetral: hsl(0, 0%, 100%);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 0 auto;
+    padding: 50px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: var(--nuetral);
+    line-height: 1.5em;
+}
+
+img {
+    max-width: 100%;
+}
+
+.bkg1 {
+    background-color: var(--nav-hero);
+}
+
+h1, h2, li {
+    font-family: 'Raleway', sans-serif;
+}
+
+/* Navbar */
+.navbar li {
+    display: inline;
+    padding-right: 20px;
+    list-style: none;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: var(--nuetral);
+}
+
+.bkg2 {
+    background-color: var(--main-bkg);
+}
+
+
+/* Michael's work starts here */
+/* Hero */
+.hero {
+    text-align: center;
+}
+.hero-text {
+    padding: 0 100px;
+    color: hsl(0, 0%, 100%);
+}
+.hero-text h3 {
+    font-size: 24px;
+    line-height: 28px;
+}
+.hero-text p {
+    font-size: 14px;
+    margin-top: 20px;
+}
+.hero-text button, .btn {
+    border-radius: 50px;
+    background-color: hsl(198, 60%, 50%);
+    color: hsl(0, 0%, 100%);
+    padding: 15px 50px;
+    border: hsl(198, 60%, 50%);
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+
+
+/* Productive */
+
+.fylo-work {
+    margin-top: 20px;
+}
+.fylo-work a {
+    color:hsl(176, 68%, 64%);
+}
+/* Michael's work starts here */
+
+
+#features .row {
+}
+
+#features .each {
+    padding: 80px;
+}
+
+.ceo {
+    background-color: var(--testimonial);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.10);
+    border-radius: 5px;
+    width: 320px;
+}
+
+#testimony .row {
+    padding-bottom: 100px;
+}
+
+.ceo p {
+    font-size: 14px;
+    letter-spacing: 1px;
+    line-height: 1.8;
+    padding: 30px;
+}
+
+.ceo_info {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.ceo_info img {
+    border-radius: 50%;
+    height: 50px;
+    margin-right: 10px;
+    margin-top: 30px;
+    width: 50px;
+}
+
+/* cta */
+.cta {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--nav-hero);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.10);
+    border-radius: 5px;
+    width: 80%;
+    margin-left: 150px;
+}
+
+
+form input {
+    border-radius: 50px;
+    background-color: var(--nuetral);
+    color: var(--main-bkg);
+    padding: 15px 50px;
+    border: hsl(0, 0%, 100%);
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+/* Footer */
+footer {
+    background-color: var(--footer);
+    padding: 150px 0 50px;
+}
+
+footer ul:not(:last-child) {
+    list-style: none;
+    padding-right: 50px;
+}
+
+footer ul a {
+    text-decoration: none;
+    color: var(--nuetral);
+}
+
+footer ul li {
+    line-height: 1.7;
+    letter-spacing: 2;
+    
+}
+
+footer .circle {
+    border: 1px solid #fff;
+    border-radius: 50px;
+    color: var(--nuetral);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+    height: 40px;
+    width: 40px;
+}
+footer .social {
+    display: flex;
+}
+
+footer .contact img {
+    padding-right: 20px;
+}

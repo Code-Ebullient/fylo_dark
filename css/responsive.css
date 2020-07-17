@@ -1,0 +1,54 @@
+@media screen and (max-width: 768px) {
+    .body {
+        padding: 50px;
+    }
+
+    .hero img {
+        width: 100%;
+    }
+    .hero-text {
+        padding: 0;
+    }
+    .hero-text button {
+        padding: 15px 80px;
+        margin-top: 30px;
+    }
+    .grids {
+        grid-template-columns: 1fr;
+        padding: 0 10px;
+    }
+    .grid p {
+        padding: 0;
+    }
+    .productive {
+        flex-direction: column;
+    }
+    .productive-text {
+        padding: 0;
+    }
+    .productive-text h3 {
+        display: none;
+    }
+    .productive-text h2 {
+        display: inline;
+        font-size: 16px;
+        color: hsl(0, 0%, 100%);
+    }
+    .productive img {
+        width: 100%;
+    }
+    .test-hero::before {
+        margin-left: 0;
+    }
+    .testimonials {
+        flex-direction: column;
+        margin-top: -30px;
+    }
+    .testimonial {
+        margin-top: 20px;
+    }
+
+    .cta {
+        max-width: 30%;
+    }
+}
